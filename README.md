@@ -18,7 +18,7 @@ Automated generation of release notes for GitHub repositories. Release note is g
       generate-release-notes:
         runs-on: ubuntu-latest
         steps:
-          - uses: indykite/generate-release-notes@v1
+          - uses: indykite/generate-release-notes@master
             with:
               docs-repo: owner/docs-repo
     ```
