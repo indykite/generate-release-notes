@@ -69,7 +69,7 @@ runs:
       with:
         token: ${{inputs.token}}
         path: ${{inputs.docs-repo}}
-        commit-message: 'release note ${{ steps.generate-release-notes.outputs.REPO_NAME_RELEASE }}'
+        commit-message: 'docs: release note ${{ steps.generate-release-notes.outputs.REPO_NAME_RELEASE }}'
         branch: new-release-notes/preview
         title: '[Auto PR] Updated release notes ${{ steps.generate-release-notes.outputs.REPO_NAME_RELEASE }}'
         delete-branch: true
